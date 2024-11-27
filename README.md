@@ -101,8 +101,29 @@ TimeSeriesForecastingProject/
      python scripts/Jinal_Fall 2024_TimeSeriesForecastingProject.py
 
 ## Visualizations
-* Correlation Heatmap: Highlights relationships between goods.
-* Forecasting Plots: Moving average, exponential smoothing, and Prophet forecasts visualized with Pyplot, Plotly with range slider and Seaborne.
+### Time Series of Monthly Production Values of Each Good
+![Time Series](visualizations/Overlay of Time Series for All Goods.png)
+  
+### Correlation Heatmap
+![Correlation Heatmap](visualizations/Correlation Heatmap.png)
+
+### Moving Averages Forcast
+![Moving Average Forcasting for Tomatoes](visualizations/Moving Average Forcasting for Tomatoes.png)
+
+### Exponential Smoothing Forcast for Tomatoes Using Plotly
+![Exponential Smoothing Forcast for Tomatoes Using Plotly](visualizations/Exponential Smoothing Forcast for Tomatoes Using Plotly.png)
+
+### Facebook Prophet Forecast for Tomatoes
+![Facebook Prophet Forecast for Tomatoes](visualizations/Facebook Prophet Forecast for Tomatoes.png)
+
+### Forecast Comparison for Tomatoes Using Pyplot
+![Forecast Comparison for Tomatoes Using Pyplot](visualizations/Forecast Comparison for Tomatoes Using Pyplot.png)
+
+### Combined Forecasts for Tomatoes Using Plotly
+![Combined Forecasts for Tomatoes Using Plotly](visualizations/Combined Forecasts for Tomatoes Using Plotly.png)
+
+### Combined Forecasts for Tomatoes Using Seaborne
+![Combined Forecasts for Tomatoes Using Seaborne](visualizations/Combined Forecasts for Tomatoes Using Seaborne.png)
 
 ## License
 This project is licensed under the MIT License.
