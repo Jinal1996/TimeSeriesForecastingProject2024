@@ -101,8 +101,8 @@ TimeSeriesForecastingProject2024/
 ## How to Run
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Jinal1996/TimeSeriesForecastingProject.git
-   cd TimeSeriesForecastingProject
+   git clone https://github.com/Jinal1996/TimeSeriesForecastingProject2024.git
+   cd TimeSeriesForecastingProject2024
 2. **Install Dependencies:**
      - ```bash
        pip install -r requirements.txt
