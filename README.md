@@ -13,20 +13,31 @@ This project analyzes and forecasts the production patterns of various goods usi
    - Facebook Prophet
 
 ## Repository Structure
-TimeSeriesForecastingProject/
-├── datasets/
-│   ├── Tomatoes.csv
-│   ├── Sorghum.csv
-│   └── ...
-├── scripts/
-│   ├── forecasting_script.py
-│   └── forecasting_notebook.ipynb
-├── visualizations/
-│   ├── heatmap_correlation.png
-│   ├── moving_avg_forecast.png
-│   └── ...
-├── README.md
-└── LICENSE (optional)
+
+TimeSeriesForecastingProject2024/
+├── Beans (dry).csv                              # Data files
+├── Cassava.csv
+├── Chili (red).csv
+├── Maize.csv
+├── Oranges (big size).csv
+├── Peas (fresh).csv
+├── Potatoes (Irish).csv
+├── Sorghum.csv
+├── Tomatoes.csv
+├── Combined_Production_Data.csv                # Combined dataset
+├── Jinal_Fall 2024_TimeSeriesForecastingProject.ipynb  # Jupyter Notebook
+├── Jinal_Fall 2024_TimeSeriesForecastingProject.py     # Python script
+├── README.md                                   # Documentation
+├── Visualizations/
+│   ├── Combined_Forecasts_for_Tomatoes_Using_Plotly.png
+│   ├── Combined_Forecasts_for_Tomatoes_Using_Seaborne.png
+│   ├── Correlation_Heatmap.png
+│   ├── Exponential_Smoothing_Forecast_for_Tomatoes_Using_Plotly.png
+│   ├── Facebook_Prophet_Forecast_for_Tomatoes.png
+│   ├── Forecast_Comparison_for_Tomatoes_Using_Pyplot.png
+│   ├── Moving_Average_Forecasting_for_Tomatoes.png
+│   ├── Overlay_of_Time_Series_for_All_Goods.png
+│   ├── Time_Series_Visualization.png
 
 ## Methods Used
 ### 1. Data Preprocessing
