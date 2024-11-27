@@ -102,29 +102,28 @@ TimeSeriesForecastingProject/
 
 ## Visualizations
 ### Time Series of Monthly Production Values of Each Good
-![Time Series](visualizations/Overlay of Time Series for All Goods.png)
-  
+![Time Series](visualizations/Overlay_of_Time_Series_for_All_Goods.png)
+
 ### Correlation Heatmap
-![Correlation Heatmap](visualizations/Correlation Heatmap.png)
+![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
 
-### Moving Averages Forcast
-![Moving Average Forcasting for Tomatoes](visualizations/Moving Average Forcasting for Tomatoes.png)
+### Moving Averages Forecast
+![Moving Average Forecasting for Tomatoes](visualizations/Moving_Average_Forecasting_for_Tomatoes.png)
 
-### Exponential Smoothing Forcast for Tomatoes Using Plotly
-![Exponential Smoothing Forcast for Tomatoes Using Plotly](visualizations/Exponential Smoothing Forcast for Tomatoes Using Plotly.png)
+### Exponential Smoothing Forecast for Tomatoes Using Plotly
+![Exponential Smoothing Forecast for Tomatoes Using Plotly](visualizations/Exponential_Smoothing_Forecast_for_Tomatoes_Using_Plotly.png)
 
 ### Facebook Prophet Forecast for Tomatoes
-![Facebook Prophet Forecast for Tomatoes](visualizations/Facebook Prophet Forecast for Tomatoes.png)
+![Facebook Prophet Forecast for Tomatoes](visualizations/Facebook_Prophet_Forecast_for_Tomatoes.png)
 
 ### Forecast Comparison for Tomatoes Using Pyplot
-![Forecast Comparison for Tomatoes Using Pyplot](visualizations/Forecast Comparison for Tomatoes Using Pyplot.png)
+![Forecast Comparison for Tomatoes Using Pyplot](visualizations/Forecast_Comparison_for_Tomatoes_Using_Pyplot.png)
 
 ### Combined Forecasts for Tomatoes Using Plotly
-![Combined Forecasts for Tomatoes Using Plotly](visualizations/Combined Forecasts for Tomatoes Using Plotly.png)
+![Combined Forecasts for Tomatoes Using Plotly](visualizations/Combined_Forecasts_for_Tomatoes_Using_Plotly.png)
 
-### Combined Forecasts for Tomatoes Using Seaborne
-![Combined Forecasts for Tomatoes Using Seaborne](visualizations/Combined Forecasts for Tomatoes Using Seaborne.png)
-
+### Combined Forecasts for Tomatoes Using Seaborn
+![Combined Forecasts for Tomatoes Using Seaborn](visualizations/Combined_Forecasts_for_Tomatoes_Using_Seaborn.png)
 ## License
 This project is licensed under the MIT License.
 
