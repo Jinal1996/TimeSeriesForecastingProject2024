@@ -105,7 +105,7 @@ TimeSeriesForecastingProject/
 ![Time Series](/Overlay_of_Time_Series_for_All_Goods.png)
 
 ### Correlation Heatmap
-![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
+![Correlation Heatmap](/Correlation_Heatmap.png)
 
 ### Moving Averages Forecast
 ![Moving Average Forecasting for Tomatoes](visualizations/Moving_Average_Forecasting_for_Tomatoes.png)
