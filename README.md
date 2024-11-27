@@ -99,30 +99,19 @@ TimeSeriesForecastingProject2024/
   - `plotly`
     
 ## How to Run
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Jinal1996/TimeSeriesForecastingProject2024.git
-   cd TimeSeriesForecastingProject2024
-2. **Install Dependencies:**
-     - ```bash
-       pip install -r requirements.txt
-     - If you're using Google Colab:
-       ```bash
-       !pip install pandas matplotlib seaborn statsmodels plotly prophet
-    -  **Dependencies:**
-        * pandas: Data manipulation and analysis.
-        * matplotlib: Plotting static visualizations like line charts and decomposition.
-        * seaborn:	Creating heatmaps and styled plots for correlation analysis.
-        * plotly: Interactive visualizations with range sliders and custom backgrounds.
-        * statsmodels:	Statistical models for time series analysis (e.g., Exponential Smoothing, decomposition).
-        * prophet:	Advanced forecasting for trends and seasonality (formerly fbprophet).
-3. **Run the Analysis:**
+**Run the Analysis:**
+To run the Jupyter Notebook:
+* Clone the repository.
+* Navigate to the project directory:
+  ```bash
+  cd TimeSeriesForecastingProject2024
+* Launch the notebook:
    * Jupyter Notebook:
      ```bash
-     jupyter notebook Jinal_Fall 2024_TimeSeriesForecastingProject.ipynb
+     jupyter notebook: Jinal_Fall 2024_TimeSeriesForecastingProject.ipynb
    * Python Script:
      ```bash
-     python scripts/Jinal_Fall 2024_TimeSeriesForecastingProject.py
+     python scripts: Jinal_Fall 2024_TimeSeriesForecastingProject.py
 
 ## Visualizations
 ### Time Series of Monthly Production Values of Each Good
@@ -132,22 +121,22 @@ TimeSeriesForecastingProject2024/
 ![Correlation Heatmap](/Correlation_Heatmap.png)
 
 ### Moving Averages Forecast
-![Moving Average Forecasting for Tomatoes](visualizations/Moving_Average_Forecasting_for_Tomatoes.png)
+![Moving Average Forecasting for Tomatoes](/Moving_Average_Forecasting_for_Tomatoes.png)
 
 ### Exponential Smoothing Forecast for Tomatoes Using Plotly
-![Exponential Smoothing Forecast for Tomatoes Using Plotly](visualizations/Exponential_Smoothing_Forecast_for_Tomatoes_Using_Plotly.png)
+![Exponential Smoothing Forecast for Tomatoes Using Plotly](/Exponential_Smoothing_Forecast_for_Tomatoes_Using_Plotly.png)
 
 ### Facebook Prophet Forecast for Tomatoes
-![Facebook Prophet Forecast for Tomatoes](visualizations/Facebook_Prophet_Forecast_for_Tomatoes.png)
+![Facebook Prophet Forecast for Tomatoes](/Facebook_Prophet_Forecast_for_Tomatoes.png)
 
 ### Forecast Comparison for Tomatoes Using Pyplot
-![Forecast Comparison for Tomatoes Using Pyplot](visualizations/Forecast_Comparison_for_Tomatoes_Using_Pyplot.png)
+![Forecast Comparison for Tomatoes Using Pyplot](/Forecast_Comparison_for_Tomatoes_Using_Pyplot.png)
 
 ### Combined Forecasts for Tomatoes Using Plotly
-![Combined Forecasts for Tomatoes Using Plotly](visualizations/Combined_Forecasts_for_Tomatoes_Using_Plotly.png)
+![Combined Forecasts for Tomatoes Using Plotly](/Combined_Forecasts_for_Tomatoes_Using_Plotly.png)
 
 ### Combined Forecasts for Tomatoes Using Seaborn
-![Combined Forecasts for Tomatoes Using Seaborn](visualizations/Combined_Forecasts_for_Tomatoes_Using_Seaborn.png)
+![Combined Forecasts for Tomatoes Using Seaborn](/Combined_Forecasts_for_Tomatoes_Using_Seaborne.png)
 ## License
 This project is licensed under the MIT License.
 
