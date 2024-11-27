@@ -50,12 +50,25 @@ TimeSeriesForecastingProject2024/
 - **Facebook Prophet:** Advanced model accounting for trends and seasonality.
 
 ## Results
-### 1. Correlation Analysis
+### 1. Handling Missing Values:
+- To fill or interpolate missing values Linear Interpolation was used.
+- **Justification for Linear Interpolation**
+  * Given the nature of the data (monthly production values for goods), linear Interpolation is the best choice because:
+    * Preservation of Trends: Monthly production values typically follow trends over time. Interpolation maintains these trends better than forward-fill or backward-fill.
+    * Continuity: Linear interpolation provides a smooth transition between data points, avoiding abrupt jumps in values.
+    * Symmetry: Unlike ffill or bfill, interpolation considers both past and future data, ensuring a balanced estimation for missing values.
+    * Applicability to Time Series: Time series data often requires methods that preserve continuity and trends, making interpolation ideal.
+  * Linear Interpolation is used for this dataset because:
+     * The data likely follows consistent trends.
+     * It ensures smooth, trend-preserving estimations without introducing significant biases.
+### 2. Correlation Analysis
 - **Most Similar Pair of Goods:**
   - Peas (fresh) and Potatoes (Irish) with a correlation of 0.74
-- **Visualization:** Correlation heatmap (saved in `/visualizations/heatmap_correlation.png`).
-
-### 2. Forecasting
+- **Why Use Correlation as a Metric?**
+  * **Quantitative Measure of Similarity:** Correlation quantifies how two goods' production values change together over time. A high correlation (close to +1) indicates similar production patterns, while a low or negative correlation suggests dissimilarity.
+  * **Handles Linear Relationships:** Correlation is well-suited for time series data where trends and seasonal variations are expected.
+  * **Interpretability:** Correlation values provide a clear and interpretable metric to compare production patterns.
+### 3. Forecasting
 - **Moving Average Forecast for Next 6 Months:**
   ```plaintext
   [383.09, 383.09, 383.09, 383.09, 383.09, 383.09]
