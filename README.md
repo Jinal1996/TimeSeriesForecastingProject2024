@@ -102,7 +102,7 @@ TimeSeriesForecastingProject/
 
 ## Visualizations
 ### Time Series of Monthly Production Values of Each Good
-![Time Series](visualizations/Overlay_of_Time_Series_for_All_Goods.png)
+![Time Series](/Overlay_of_Time_Series_for_All_Goods.png)
 
 ### Correlation Heatmap
 ![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
